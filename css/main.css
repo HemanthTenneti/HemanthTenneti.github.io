@@ -52,7 +52,6 @@ body {
     flex-direction: column;
     align-content: center;
     height: 90vh;
-    align-items: center;
 }
 
 .content hr {
@@ -81,12 +80,41 @@ body {
     }
   }
 
-.content .contactinfo{
+.contact {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: 90vh;
     align-items: center;
 }
 
-.content .card{
+.contact .contactinfo {
     display: flex;
-    flex-direction:column ;
+    flex-direction:column;
+}
+
+.contact .card {
+    width:850px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 18.266px;
+    border: 1.218px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(27.4px);
+    margin: 15px 0px;
+    padding: 8px 30px;
+}
+
+.contact a {
+    color:#b8b8b8;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.contactinfo h1 {
+    font-family: "Space Grotesk";
+    align-content: center;
+    text-align: center;
 }
