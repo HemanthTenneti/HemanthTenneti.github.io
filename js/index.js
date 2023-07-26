@@ -11,7 +11,12 @@ document.addEventListener('mousemove', function (e) {
     const mouseY = e.clientY;
     const offsetX = window.innerWidth / 2 - mouseX;
     const offsetY = window.innerHeight / 2 - mouseY;
-  
+    
     background.style.backgroundPosition = `calc(50% + ${offsetX}px) calc(50% + ${offsetY}px)`;
   });
-  
+
+var typed = new Typed('#heading', {
+      strings: ['A passion for coding<br> with an insatiable curiosity<br> fuelling my portfolio'],
+      typeSpeed: 30,
+      showCursor: false
+    });

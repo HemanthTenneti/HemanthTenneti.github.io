@@ -9,45 +9,57 @@
     <!--Import stylesheet with the local css file-->
     <link rel="stylesheet" href="css/main.css" />
   </head>
+
   <body>
     <div class="website">
       <nav class="navbar">
-        <a class="nav-link" href="/contact.html"
-          ><img src="img/icons/MailUnselect.svg" width="35px"
-        /></a>
+        <a
+          class="nav-link"
+          href="/contact.html"
+          style="display: flex; align-items: center"
+          ><img src="img/MailUnselect.svg" width="35px" /> &nbsp;contact</a
+        >
         <center>
-          <a href="/"><h1>Hemanth Tenneti</h1></a>
+          <a href="/">
+            <h1>Hemanth Tenneti</h1>
+          </a>
         </center>
-        <a class="nav-link" href="/projects.html"
-          ><img src="img/icons/SaveUnselect.svg" width="35px"
+        <a
+          class="nav-link"
+          href="/projects.html"
+          style="display: flex; align-items: center"
+          >projects&nbsp;<img src="img/SaveUnselect.svg" width="35px"
         /></a>
       </nav>
 
       <div class="content">
-        <h1 class="heading">
-          A passion for Python coding <br />
+        <h1 id="heading">
+          A passion for coding <br />
           with an insatiable curiosity <br />
           fuelling my portfolio
         </h1>
-        <div><hr style="width: 30%" /></div>
+        <div>
+          <hr class="breakline" style="width: 0%" />
+        </div>
         <div class="social-media">
           <a href="https://github.com/HemanthTenneti" target="_blank"
-            ><img src="img/icons/github.svg" width="35px"
+            ><img src="img/github.svg" width="35px"
           /></a>
           <a onclick="copyDiscord(event)" style="cursor: pointer"
-            ><img src="img/icons/discord.svg" width="35px" />
+            ><img src="img/discord.svg" width="35px" />
           </a>
           <a href="https://twitter.com/AtoWithAHatto" target="_blank"
-            ><img src="img/icons/twitter.svg" width="35px"
+            ><img src="img/twitter.svg" width="35px"
           /></a>
           <a href="https://www.instagram.com/potatowithahatto/" target="_blank"
-            ><img src="img/icons/instagram.svg" width="35px"
+            ><img src="img/instagram.svg" width="35px"
           /></a>
         </div>
       </div>
     </div>
 
     <!--Importing javascript file-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

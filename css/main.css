@@ -17,7 +17,7 @@ body {
 }
 
 .website {
-    background-image: url('../img/1-min.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1050735889933930577/1133670995035693207/1-min.png');
     background-size: 325%;
     opacity: 0;
     animation: Gradience 1s ease-in-out forwards;
@@ -58,9 +58,10 @@ body {
     height: 2.5px;
     background: #fff;
     opacity: 20%;
+    border-radius: 5px;
 }
 
-.heading {
+#heading {
     text-align: center;
     font-size: 75px;
     font-family: 'Space Grotesk',sans-serif;
@@ -73,12 +74,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-@keyframes Gradience {
-    to {
-      opacity: 1;
-    }
-  }
 
 .contact {
     display: flex;
@@ -120,5 +115,25 @@ body {
 }
 
 .social-media-contact {
+    padding-top: 30px ;
     padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap:30px;
 }
+
+.breakline {
+    animation: breakLine 1s ease-in-out forwards;
+}
+
+@keyframes breakLine {
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes Gradience {
+    to {
+      opacity: 1;
+    }
+  }
