@@ -18,7 +18,7 @@ body {
 
 .website {
     background-image: url('../img/1-min.png');
-    background-size: 350%;
+    background-size: 325%;
     opacity: 0;
     animation: Gradience 1s ease-in-out forwards;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
     padding: 8px 30px;
 }
 
-.contact a{
+.contact a {
     color:#b8b8b8;
     text-decoration: none;
     font-weight: normal;
@@ -117,4 +117,8 @@ body {
     font-family: "Space Grotesk";
     align-content: center;
     text-align: center;
+}
+
+.social-media-contact {
+    padding-bottom: 100px;
 }
