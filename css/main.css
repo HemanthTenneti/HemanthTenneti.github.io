@@ -12,7 +12,7 @@ body {
     background-size: cover;
     color: #fff;
     background-repeat: no-repeat;
-    background: #0d0c0c; 
+    background: #0d0c0c;
     padding: 0px;
     margin:0px;
 }
@@ -91,16 +91,19 @@ body {
 }
 
 .contact .card {
-    width:850px;
+    width: 35vw;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Source Code Pro', monospace;
-    border-radius: 18.266px;
-    border: 1.218px solid rgba(255, 255, 255, 0.50);
+    border-radius: 20px;
+    border: 1.2px solid rgba(255, 255, 255, 0.50);
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(27.4px);
-    margin: 15px 0px;
-    padding: 8px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .contact a {
