@@ -3,3 +3,4 @@ Add Labels on hover (icons) [or add text beside the icons to give a clue on what
 Fix the 4 icons on the contact page to the bottom left of the page
 Add music icon to bottom right in contact page
 Make the projects page
+remove .html when visitign contact and projects

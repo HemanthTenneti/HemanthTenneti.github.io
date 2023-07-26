@@ -4,6 +4,7 @@
 html, body {
     height: 100vh;
     overflow-y: hidden;
+    background-image: url('https://cdn.discordapp.com/attachments/1050735889933930577/1133670995035693207/1-min.png');
 }
 
 body {
