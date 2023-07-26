@@ -1,23 +1,37 @@
-async function copyDiscord(event) {
-    event.preventDefault();
-    await navigator.clipboard.writeText("._.ato");
-    alert("Discord ID copied!");
-    window.open("https://discord.com/users/469076843430150154")
+let viewingFileSorterSub = false;
+let viewingSDBMSSub = false;
+let viewingPasswordManagerSub = false;
+let viewingWHTRdotlive = false;
+
+document.getElementById("fileSorterClick").addEventListener("click", (event) => {
+  event.preventDefault();
+  toggleSub("fileSorterSub", "viewingFileSorterSub");
+});
+
+document.getElementById("sdbmsClick").addEventListener("click", (event) => {
+  event.preventDefault();
+  toggleSub("sdbmsSub", "viewingSDBMSSub");
+});
+
+document.getElementById("passwordManagerClick").addEventListener("click", (event) => {
+  event.preventDefault();
+  toggleSub("passwordManagerSub", "viewingPasswordManagerSub");
+});
+
+document.getElementById("WHTRdotliveClick").addEventListener("click", (event) => {
+  event.preventDefault();
+  toggleSub("WHTRdotliveSub", "viewingWHTRdotlive");
+});
+
+function toggleSub(sub, viewingFlag) {
+  const isViewing = window[viewingFlag];
+  const subElement = document.getElementById(sub);
+
+  if (!isViewing) {
+    subElement.style.display = "block";
+  } else {
+    subElement.style.display = "none";
+  }
+
+  window[viewingFlag] = !isViewing;
 }
-const background = document.querySelector('.website');
-background.style.backgroundPosition = `calc(50% + -6.5px) calc(50% + -5.5px)`;
-
-document.addEventListener('mousemove', function (e) {
-    const mouseX = e.clientX;
-    const mouseY = e.clientY;
-    const offsetX = window.innerWidth / 2 - mouseX;
-    const offsetY = window.innerHeight / 2 - mouseY;
-    
-    background.style.backgroundPosition = `calc(50% + ${offsetX}px) calc(50% + ${offsetY}px)`;
-  });
-
-var typed = new Typed('#heading', {
-      strings: ['A passion for coding<br> with an insatiable curiosity<br> fuelling my portfolio'],
-      typeSpeed: 30,
-      showCursor: false
-    });

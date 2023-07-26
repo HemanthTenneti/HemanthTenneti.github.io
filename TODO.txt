@@ -1,6 +1,5 @@
 TODO
-Make the projects page
-Fix background loading with a default position
+
 
 
 REMOVE ALL THE .HTML AFTER WEBSITE IS DOEN

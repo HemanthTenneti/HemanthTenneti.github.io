@@ -9,13 +9,15 @@
   <!--Import stylesheet-->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/projects.css" />
 </head>
 
 <body>
   <div class="website">
     <nav class="navbar">
-      <a class="nav-link" href="/contact.html" style="display: flex; align-items: center"><img src="img/MailSelect.svg"
-          width="35px" /> &nbsp;contact</a>
+      <a class="nav-link" href="/contact.html" style="display: flex; align-items: center"><img src="img/MailUnselect.svg"
+          width="35px" /> &nbsp;contact ​</a>
       <center>
         <a href="/">
           <h1>Hemanth Tenneti</h1>
@@ -25,33 +27,91 @@
           src="img/SaveSelect.svg" width="35px" /></a>
     </nav>
 
-    <div class="contact">
-      <div class="contactinfo">
-        <h1>CONTACT ME</h1>
-        <div class="card">
-          <h4>email</h4>
-          <a href="mailto:hemanth10etii@gmail.com">
-            <h4>hemanth10etii@gmail.com</h4>
-          </a>
+    <div class="projects">
+      <div class="projectsinfo">
+        <h1>PROJECTS</h1>
+
+        <div id="projects">
+                  <!-- fileSorter -->
+        
+          <div class="project" id="fileSorter">
+            <a href="" id="fileSorterClick">
+            <div style="display: flex; justify-content: space-between;">
+              <h4>File Sorter</h4>
+              <h4>2023</h4></div>
+            </a>
+            <div id="fileSorterSub">
+              <h4>It is a software tool designed to automatically organize and categorize files based on file extensions, providing a well-structured and clutter-free file system.</h4>
+                <img class="projectImage" src="https://i.ytimg.com/vi/wFOGhggGdxY/mqdefault.jpg" alt="" width="100%">
+              
+              <a href="https://github.com/HemanthTenneti/FileSorter" target="_blank">
+                <div class="projectLinks"> GitHub Repo ↗</div>
+              </a>
+
+            </div>
+          </div>
+
+  
+          <!-- Student DB MGMT System -->
+
+
+            
+              <div class="project" id="sdbms">
+                <a href="" id="sdbmsClick">
+                <div style="display: flex; justify-content: space-between;">
+                  <h4>Student Database Management Sytem</h4>
+                  <h4>2023</h4></div>
+                </a>
+                <div id="sdbmsSub">
+                  <h4>The Student Database Management System is a user-friendly terminal-UI software designed to efficiently store, manage, and organize student information for educational institutions. <br>
+                    Programmed by <a href="">Me</a>, <a href="https://www.aaloke.com" target="_blank">@Aaloke</a>, <a href="https://github.com/sreeadithya" target="_blank">@Adithya</a>, <a href="https://www.blankfc.de" target="_blank">@Hussain</a>
+                  </h4>
+                  <a href="https://github.com/AverageBlank/StudentDatabase" target="_blank">
+                    <div class="projectLinks"> GitHub Repo ↗</div>
+                  </a>
+                </div>
+              </div>
+
+  
+          <!-- Password Manager -->
+            
+              <div class="project" id="passwordManager">
+                <a href="" id="passwordManagerClick">
+                <div style="display: flex; justify-content: space-between;">
+                  <h4>Password Manager</h4>
+                  <h4>2023</h4></div>
+                </a>
+                <div id="passwordManagerSub">
+                  <h4>[IN THE WORKS] It is a software application designed to securely store and manage users' passwords and sensitive login information for various online accounts and services.</h4>
+                  <a href="https://github.com/AverageBlank/PasswordManager" target="_blank">
+                    <div class="projectLinks"> GitHub Repo ↗</div>
+                  </a>
+                </div>
+              </div>
+
+            
+              <div class="project" id="WHTRdotlive">
+                <a href="" id="WHTRdotliveClick">
+                <div style="display: flex; justify-content: space-between;">
+                  <h4>whtr.live</h4>
+                  <h4>2023</h4></div>
+                </a>
+                <div id="WHTRdotliveSub">
+                  <h4>Beautiful user interface providing real-time weather information, and weather-related data, enabling users to stay informed about current weather conditions and plan accordingly.</h4>
+
+                  <img class="projectImage" src="https://media.discordapp.net/attachments/1050735944598302790/1133735960815861800/Homepage.jpg" alt="" width="100%">
+                  <a href="https://github.com/HemanthTenneti/FileSorter" target="_blank">
+                    <div class="projectLinks"> GitHub Repo ↗</div>
+                  </a>
+                </div>
+
+              </div>
+
         </div>
-        <div class="card">
-          <h4>discord</h4>
-          <a onclick="copyDiscord(event)" style="cursor: pointer">
-            <h4>._.ato</h4>
-          </a>
-        </div>
-        <div class="card">
-          <h4>twitter</h4>
-          <a href="https://twitter.com/AtoWithAHatto">
-            <h4>@AtoWithAHatto</h4>
-          </a>
-        </div>
-        <div class="card">
-          <h4>instagram</h4>
-          <a href="https://instagram.com/hemanth10eti">
-            <h4>hemanth10eti</h4>
-          </a>
-        </div>
+
+
+
+
       </div>
 
       <div class="social-media-contact">
@@ -65,7 +125,10 @@
     </div>
 
     <!--JavaScript-->
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/typingEffect.js"></script>
+    <script src="js/bgGradience.js""></script>
+    <script src="js/copyLink.js""></script>
 </body>
 
 </html>
