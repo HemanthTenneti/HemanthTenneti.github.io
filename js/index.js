@@ -4,9 +4,10 @@ async function copyDiscord(event) {
     alert("Discord ID copied!");
     window.open("https://discord.com/users/469076843430150154")
 }
+const background = document.querySelector('.website');
+background.style.backgroundPosition = `calc(50% + -6.5px) calc(50% + -5.5px)`;
 
 document.addEventListener('mousemove', function (e) {
-    const background = document.querySelector('.website');
     const mouseX = e.clientX;
     const mouseY = e.clientY;
     const offsetX = window.innerWidth / 2 - mouseX;
