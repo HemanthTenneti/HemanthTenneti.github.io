@@ -5,7 +5,7 @@ html,
 body {
     height: 100vh;
     overflow-y: hidden;
-    background-image: url('https://cdn.discordapp.com/attachments/1133392592336343151/1133696785131524208/Achernar.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 .website {
-    background-image: url('https://cdn.discordapp.com/attachments/1133392592336343151/1133696785131524208/Achernar.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
     background-size: 350%;
     opacity: 0;
     animation: Gradient 1s ease-in-out forwards;
