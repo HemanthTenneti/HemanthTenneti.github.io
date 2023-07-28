@@ -2,6 +2,7 @@ let viewingFileSorterSub = false;
 let viewingSDBMSSub = false;
 let viewingPasswordManagerSub = false;
 let viewingWHTRdotlive = false;
+let viewingZoomBomber = false;
 
 document.getElementById("fileSorterClick").addEventListener("click", (event) => {
   event.preventDefault();
@@ -21,6 +22,11 @@ document.getElementById("passwordManagerClick").addEventListener("click", (event
 document.getElementById("WHTRdotliveClick").addEventListener("click", (event) => {
   event.preventDefault();
   toggleSub("WHTRdotliveSub", "viewingWHTRdotlive");
+});
+
+document.getElementById("zoomBomberClick").addEventListener("click", (event) => {
+  event.preventDefault();
+  toggleSub("zoomBomberSub", "viewingZoomBomber");
 });
 
 function toggleSub(sub, viewingFlag) {
