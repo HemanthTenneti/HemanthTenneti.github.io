@@ -82,6 +82,21 @@ body {
     animation: breakLine 1s ease-in-out forwards;
 }
 
+#spotifyText {
+    position:absolute;
+    bottom: 30px;
+    right: 30px;
+    font-family: 'Source Code Pro';
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+#MusicNote {
+    width: 35px
+}
+
 #fileSorterSub {
     display: none;
 }
