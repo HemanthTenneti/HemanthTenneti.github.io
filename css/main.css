@@ -3,129 +3,126 @@
 
 html,
 body {
-    height: 100vh;
-    overflow-y: hidden;
-    background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
+	height: 100vh;
+	overflow-y: hidden;
+	background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
 }
 
 body {
-    transition: background 0.4s ease;
-    background-size: cover;
-    color: #fff;
-    background-repeat: no-repeat;
-    background: #0d0c0c;
-    padding: 0px;
-    margin: 0px;
+	transition: background 0.4s ease;
+	background-size: cover;
+	color: #fff;
+	background-repeat: no-repeat;
+	background: #0d0c0c;
+	padding: 0px;
+	margin: 0px;
 }
 
 .website {
-    background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
-    background-size: 350%;
-    opacity: 0;
-    animation: Gradient 1s ease-in-out forwards;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
+	background-image: url('https://cdn.discordapp.com/attachments/1134354645872038028/1134508010757161104/Achernar.webp');
+	background-size: 350%;
+	opacity: 0;
+	animation: Gradient 1s ease-in-out forwards;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
 }
 
-
 .navbar {
-    padding: 0px 30px;
-    display: flex;
-    font-family: 'Source Code Pro', monospace;
-    justify-content: space-between;
-    align-items: center;
+	padding: 0px 30px;
+	display: flex;
+	font-family: 'Source Code Pro', monospace;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .navbar h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 30px;
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 30px;
 }
 
 .navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
 }
 
 #heading {
-    text-align: center;
-    font-size: 75px;
-    font-family: 'Space Grotesk', sans-serif;
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Space Grotesk', sans-serif;
 }
 
 .social-media {
-    display: flex;
-    gap: 45px;
-    padding: 62px 0px;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	gap: 45px;
+	padding: 62px 0px;
+	justify-content: center;
+	align-items: center;
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    height: 90vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	height: 90vh;
 }
 
 .content hr {
-    height: 2.5px;
-    background: #fff;
-    opacity: 20%;
-    border-radius: 5px;
+	height: 2.5px;
+	background: #fff;
+	opacity: 20%;
+	border-radius: 5px;
 }
 
-
 .breakline {
-    animation: breakLine 1s ease-in-out forwards;
+	animation: breakLine 1s ease-in-out forwards;
 }
 
 #spotifyText {
-    position:absolute;
-    bottom: 30px;
-    right: 30px;
-    font-family: 'Source Code Pro';
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	font-family: 'Source Code Pro';
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 25px;
 }
 
 #MusicNote {
-    width: 35px
+	width: 35px;
 }
 
 #fileSorterSub {
-    display: none;
+	display: none;
 }
 
 #sdbmsSub {
-    display: none
+	display: none;
 }
 
 #passwordManagerSub {
-    display: none
+	display: none;
 }
 
 #WHTRdotliveSub {
-    display: none
+	display: none;
 }
 
 #zoomBomberSub {
-    display: none
+	display: none;
 }
 
-
 @keyframes breakLine {
-    to {
-        width: 30%;
-    }
+	to {
+		width: 30%;
+	}
 }
 
 @keyframes Gradient {
-    to {
-        opacity: 1;
-    }
+	to {
+		opacity: 1;
+	}
 }
