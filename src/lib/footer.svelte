@@ -25,7 +25,7 @@
 	getSong();
 
 	//implementing dark and light mode switch
-	let darkModeStorage = 'darkMode'; // Define a key for localStorage
+    	let darkModeStorage = 'darkMode'; // Define a key for localStorage
     	if (localStorage.getItem(darkModeStorage) == null) {
         	localStorage.setItem(darkModeStorage, 'true'); // Store strings in localStorage
     	}
@@ -34,20 +34,27 @@
     	function handleSwitchDarkMode() {
         	darkMode = !darkMode;
         	darkMode
-            	? document.documentElement.classList.add('dark')
-            	: document.documentElement.classList.remove('dark');
+            		? document.documentElement.classList.add('dark')
+            		: document.documentElement.classList.remove('dark');
 
         	localStorage.setItem(darkModeStorage, darkMode.toString()); // Convert boolean to string before storing
-	}
-	if (browser) {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			document.documentElement.classList.add('dark');
-			darkMode = true;
-		} else {
-			document.documentElement.classList.remove('dark');
-			darkMode = false;
-		}
-	}
+    	}
+
+    if (browser) {
+        console.log(darkMode);
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches && darkMode == true) {
+            document.documentElement.classList.add('dark');
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches && darkMode == false) {
+            document.documentElement.classList.remove('dark');
+        } else if (window.matchMedia('(prefers-color-scheme: light)').matches && darkMode == true) {
+            document.documentElement.classList.add('dark');
+        } else if (window.matchMedia('(prefers-color-scheme: light)').matches && darkMode == false) {
+            document.documentElement.classList.remove('dark');
+        } else {
+            document.documentElement.classList.add('dark');
+        }
+    }
+}
 </script>
 
 <main>
