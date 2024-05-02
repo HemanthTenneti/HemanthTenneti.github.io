@@ -5,7 +5,7 @@
 </script>
 
 <div class="dark:bg-[#1F1D27] h-screen w-screen bg-[#EEEBE2] transition ease-in-out delay-200">
-	<div class="bg-[url('/background.png')] animate-unblur h-screen w-screen flex">
+	<div class="bg-[url('/background.svg')] animate-unblur h-screen w-screen flex">
 		<Navbar />
 		<slot />
 		<Footer />
