@@ -25,15 +25,20 @@
 	getSong();
 
 	//implementing dark and light mode switch
-	let darkMode = true;
+	let darkModeStorage = 'darkMode'; // Define a key for localStorage
+    	if (localStorage.getItem(darkModeStorage) == null) {
+        	localStorage.setItem(darkModeStorage, 'true'); // Store strings in localStorage
+    	}
+    	let darkMode = localStorage.getItem(darkModeStorage) === 'true'; // Convert string to boolean
 
-	function handleSwitchDarkMode() {
-		darkMode = !darkMode;
-		darkMode
-			? document.documentElement.classList.add('dark')
-			: document.documentElement.classList.remove('dark');
+    	function handleSwitchDarkMode() {
+        	darkMode = !darkMode;
+        	darkMode
+            	? document.documentElement.classList.add('dark')
+            	: document.documentElement.classList.remove('dark');
+
+        	localStorage.setItem(darkModeStorage, darkMode.toString()); // Convert boolean to string before storing
 	}
-
 	if (browser) {
 		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 			document.documentElement.classList.add('dark');
