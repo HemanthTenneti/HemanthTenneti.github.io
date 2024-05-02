@@ -1,12 +1,38 @@
-# hemanthtenneti.github.io **([10eti.xyz](https://10eti.xyz))**
-With my passion for coding, growing my portfolio further everyday, and with the ownership to a domain. I've decided to work on a website that would showcase my coding portfolio.
-Tinkering around with many ideas, found one that I decided to design and execute it into existence.
+# create-svelte
 
-## [Home](https://10eti.xyz/) Page
-The home page that would greet the user upon entering the website, has a background that is a gradience linked to the movement of cursor that followed the position of cursor when moved, providing a smooth background animation that was subtle.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## [Projects](https://10eti.xyz/projects) Page 
-A good portfolio website is unfulfilled of it's definition without showcasing your projects, so all the projects I've worked on are featured with a drop down menu showing greater description to the reason behind the project, along with images for some. 
+## Creating a project
 
-## [Contact](https://10eti.xyz/projects) Page
-And ofcourse, a portfolio is left incomplete without a way to contacting the person behind the projects, so the contact page held everyway I could be contacted.
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
