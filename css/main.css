@@ -5,7 +5,7 @@ html,
 body {
 	height: 100vh;
 	overflow-y: hidden;
-	background-image: url('https://cdn.discordapp.com/attachments/1117354276113625170/1302872973098614794/Achernar.png?ex=6729b282&is=67286102&hm=dd69aec7c69b7e8329626647db9723bd3abfe8e94065a03ac2480268ef2c7210&');
+	background-image: url('https://cdn.discordapp.com/attachments/1117354276113625170/1302872973098614794/Achernar.png?ex=67324442&is=6730f2c2&hm=b75ee5dfdbb80889ae129a78bfac30492c9753b2b76107963e202a004d682832&');
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 .website {
-	background-image: url('https://cdn.discordapp.com/attachments/1117354276113625170/1302872973098614794/Achernar.png?ex=6729b282&is=67286102&hm=dd69aec7c69b7e8329626647db9723bd3abfe8e94065a03ac2480268ef2c7210&');
+	background-image: url('https://cdn.discordapp.com/attachments/1117354276113625170/1302872973098614794/Achernar.png?ex=67324442&is=6730f2c2&hm=b75ee5dfdbb80889ae129a78bfac30492c9753b2b76107963e202a004d682832&');
 	background-size: 350%;
 	opacity: 0;
 	animation: Gradient 1s ease-in-out forwards;
